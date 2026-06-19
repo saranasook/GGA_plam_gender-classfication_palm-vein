@@ -14,7 +14,7 @@ This repository contains the official PyTorch implementation for our framework *
 ├── gender_inference.py             # Single-image inference pipeline script
 ├── requirements.txt         # Required Python dependencies
 └── README.md                # Project documentation
-
+```
 
 🛠️ Installation
 1. Clone the Repository
