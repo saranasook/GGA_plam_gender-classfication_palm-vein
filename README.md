@@ -1,4 +1,4 @@
-# GGA_plam_gender-classfication_plam-vein
+# GGA_plam_gender-classfication_palm-vein
 
 # Global Gated Attention (GGA) for Robust Gender Classification in Palm Vein Biometrics
 
@@ -18,8 +18,8 @@ This repository contains the official PyTorch implementation for our framework *
 
 🛠️ Installation
 1. Clone the Repository
-git clone https://github.com/saranasook/GGA_plam_gender-classfication_plam-vein.git
-cd GGA_plam_gender-classfication_plam-vein
+git clone https://github.com/saranasook/GGA_plam_gender-classfication_palm-vein.git
+cd GGA_plam_gender-classfication_palm-vein
 
 
 2. Install Dependencies
@@ -95,6 +95,8 @@ If you use this code, the GGA module architecture, or find our benchmarks helpfu
   month={May},
   publisher={IEEE}
 }
+
+For inquiries regarding NECTEC biometric collaborations, please contact sorn.soo@nectec.or.th
 
 
 
