@@ -263,8 +263,8 @@ data_transforms = transforms.Compose([
 train_csv                           = '/path/train_data.csv'
 test_csv                            = '/path/test_data.csv'
 
-train_dataset                       = PalmVeinDataset(csv_file='/project/lt200384-ff_bio/datasets/VERA-Palmvein/train_data.csv', transform=data_transforms)
-val_dataset                         = PalmVeinDataset(csv_file='/project/lt200384-ff_bio/datasets/VERA-Palmvein/val_data.csv', transform=data_transforms)
+train_dataset                       = PalmVeinDataset(csv_file=train_csv, transform=data_transforms)
+val_dataset                         = PalmVeinDataset(csv_file=test_csv, transform=data_transforms)
 
 train_loader                        = DataLoader(train_dataset, batch_size=BATCH_SIZE, shuffle=True)
 val_loader                          = DataLoader(val_dataset, batch_size=BATCH_SIZE, shuffle=False)
