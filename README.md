@@ -76,7 +76,7 @@ Output: {'probability': 0.9432, 'label_id': 1, 'gender': 'Female (F)'}
 ```
 
 
-#🔬 Core Methodology & Performance
+# 🔬 Core Methodology & Performance
 Our GGA Module features parallel Spatial and Channel Attention gates deployed exclusively at the terminal feature bottleneck. This forces the model to ignore noisy peripheral hand contours and lock onto the central palm Region of Interest (ROI).
 
 Peak Configuration: GGA-DenseNet-161
@@ -86,7 +86,7 @@ State-of-the-Art Accuracy: 94.39% on the VERA Database
 Key Visual Proof: Grad-CAM activations demonstrate precise spatial localization matching internal vascular geometry.
 
 
-#📜 Reference & Citation
+# 📜 Reference & Citation
 If you use this code, the GGA module architecture, or find our benchmarks helpful in your biometric research, please cite our work as presented in the workshop proceedings of the conference:
 @inproceedings{yourname2026global,
   title={Global Gated Attention for Robust Gender Classification in Palm Vein Biometrics},
