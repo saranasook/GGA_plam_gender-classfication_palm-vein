@@ -18,5 +18,23 @@ This repository contains the official PyTorch implementation for our framework *
 
 🛠️ Installation
 1. Clone the Repository
-git clone [https://github.com/your-username/palmvein-gga-gender.git](https://github.com/your-username/palmvein-gga-gender.git)
-cd palmvein-gga-gender
+git clone https://github.com/saranasook/GGA_plam_gender-classfication_plam-vein.git
+cd GGA_plam_gender-classfication_plam-vein
+
+
+2. Install Dependencies
+Ensure you have Python 3.8+ installed. You can install all required packages via pip:
+
+pip install -r requirements.txt
+
+📊 Data Preparation
+Our framework is evaluated using the public VERA Palm Vein Database. To prepare your data pipeline for training, complete the following steps:
+
+Download the Dataset: Request and download the raw Near-Infrared (NIR) palm vein images from the official VERA dataset provider.
+
+Generate CSV Metadata: Create train_data.csv and val_data.csv files. The dataset loader expects the CSV files to have no headers and be strictly mapped by column indices where:
+
+Column 1 (index 1): Full absolute local file path to the target image (img_dir).
+
+Column 2 (index 2): Gender string label (gender), denoted strictly as 'M' (Male) or 'F' (Female).
+
