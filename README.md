@@ -89,13 +89,16 @@ Key Visual Proof: Grad-CAM activations demonstrate precise spatial localization 
 # 📜 Reference & Citation
 If you use this code, the GGA module architecture, or find our benchmarks helpful in your biometric research, please cite our work as presented in the workshop proceedings of the conference:
 ```text
-@inproceedings{Sorn Sooksatra and Sitapa Watcharapinchai ,
-  title={Global Gated Attention for Robust Gender Classification in Palm Vein Biometrics},
-  author={Your Name and Co-Authors},
-  booktitle={Proceedings of the Workshop on Empathic AI: Face, Gesture, and Accessibility Technologies, held in conjunction with the 20th IEEE International Conference on Automatic Face and Gesture Recognition (FG 2026)},
+@INPROCEEDINGS{11556932,
+  author={Sooksatra, Sorn and Watcharapinchai, Sitapa},
+  booktitle={2026 IEEE 20th International Conference on Automatic Face and Gesture Recognition (FG)}, 
+  title={Global Attention-Based CNN for Interpretable Gender Classification in Palm Vein Biometrics}, 
   year={2026},
-  month={May},
-  publisher={IEEE}
+  volume={},
+  number={},
+  pages={1-6},
+  keywords={Modeling;Timing;Modules (abstract algebra);Veins;Equations;Biometrics;Architecture;Computer architecture;Convolutional neural networks;Tagging},
+  doi={10.1109/FG67764.2026.11556932}
 }
 ```
 For inquiries regarding NECTEC biometric collaborations, please contact sorn.soo@nectec.or.th
